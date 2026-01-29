@@ -1,0 +1,51 @@
+# Общие системные файлы
+.DS_Store
+*.swp
+*~
+*.orig
+
+# ========== XCODE ==========
+## User settings
+xcuserdata/
+
+## Build
+build/              # Локальная папка сборки проекта
+DerivedData/        # Глобальный кэш Xcode (папка рядом с проектом)
+
+## Obj-C/Swift specific
+*.hmap
+
+## App packaging
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+## Промежуточные файлы
+*.xcuserstate
+*.xcscmblueprint
+
+# ========== SWIFT PACKAGE MANAGER ==========
+.swiftpm/
+.build/             # Для SPM из командной строки
+Package.resolved    # Этот файл должен быть в .gitignore для SPM!
+
+# ========== COCOAPODS ==========
+# Если используете CocoaPods, РАСКОММЕНТИРУЙТЕ следующую строку:
+# Pods/
+# НО оставьте закомментированной, если не используете CocoaPods
+
+# ========== CARTHAGE ==========
+# Только для Carthage:
+# Carthage/Checkouts
+Carthage/Build/
+
+# ========== FASTLANE ==========
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# ========== ДРУГОЕ ==========
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
